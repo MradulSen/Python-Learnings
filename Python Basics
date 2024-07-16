@@ -1,0 +1,31 @@
+What is Python?
+
+    Python is an open-source, general-purpose, high-level, and object-oriented programming language.
+    It was created by Guido van Rossum.
+    Python consists of vast libraries and various frameworks like Django, TensorFlow, Flask, Pandas, Keras, etc.
+=======================================================================================================================
+How to Install Python?
+
+You can install Python on your system, whether it is Windows, macOS, Ubuntu, CentOS, etc. Below are the links for the installation:
+
+   --> Windows Installation : https://www.python.org/downloads/
+   --> Ubuntu: apt-get install python3.6 (change to root folder)
+ubuntu@ip-172-31-18-219:/$ sudo su - root
+root@ip-172-31-18-219:~# pwd
+/root
+root@ip-172-31-18-219:~# apt-get install python3.6
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'libpython3.6-stdlib' for regex 'python3.6'
+Note, selecting 'python3.6-2to3' for regex 'python3.6'
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+root@ip-172-31-18-219:~#
+===============================================================================================================================
+
+Task 1:
+Install Python on your respective OS, and check the version.
+
+root@ip-172-31-18-219:~# find /usr/bin/python* ! -type l
+/usr/bin/python3.12
+root@ip-172-31-18-219:~#
